@@ -62,20 +62,20 @@ export const PROJECTS: Project[] = [
       "The ground floor prioritizes shared multigenerational life, featuring a fluid transition from the entrance portico through a sheltered colonnade into the double-height family hall. Private bedrooms are situated on the upper floor with screened timber balconies that catch south-easterly summer breezes.",
     quote:
       "True luxury in Bihar is not gilded finishes; it is cool moving air, shaded daylight, and silence within a growing urban fabric.",
-    heroImage: "/hero-frames/sequence 02/ezgif-frame-150.jpg",
+    heroImage: "/frames/desktop/sequence 2/ezgif-frame-150.jpg",
     galleryImages: [
       {
-        url: "/hero-frames/sequence 02/ezgif-frame-001.jpg",
+        url: "/frames/desktop/sequence 2/ezgif-frame-001.jpg",
         caption: "Arrival court showing board-formed concrete lintels and deep shaded overhangs.",
         aspectRatio: "wide"
       },
       {
-        url: "/hero-frames/sequence 01/ezgif-frame-300.jpg",
+        url: "/frames/desktop/sequence 1/ezgif-frame-300.jpg",
         caption: "Central atrium with filtered southern daylight and brick porous jali work.",
         aspectRatio: "portrait"
       },
       {
-        url: "/hero-frames/sequence 02/ezgif-frame-200.jpg",
+        url: "/frames/desktop/sequence 2/ezgif-frame-200.jpg",
         caption: "Bespoke sal wood joinery and seamless terrazzo flooring in the living pavilion.",
         aspectRatio: "landscape"
       }
@@ -89,9 +89,9 @@ export const PROJECTS: Project[] = [
       { label: "Completion Date", value: "November 2025" }
     ],
     media: {
-      poster: "/hero-frames/sequence 02/ezgif-frame-150.jpg",
+      poster: "/frames/desktop/sequence 2/ezgif-frame-150.jpg",
       tileIndex: 0,
-      fallbackImage: "/hero-frames/sequence 02/ezgif-frame-150.jpg"
+      fallbackImage: "/frames/desktop/sequence 2/ezgif-frame-150.jpg"
     }
   },
   {
@@ -120,20 +120,20 @@ export const PROJECTS: Project[] = [
       "A linear spine connects the formal drawing room to the family pavilion, culminating in a semi-covered garden terrace. The upper level features private study alcoves overlooking the garden canopy.",
     quote:
       "Brick has a memory of the earth from which it was fired. In Purnia, it speaks of the river silt and enduring permanence.",
-    heroImage: "/hero-frames/sequence 01/ezgif-frame-300.jpg",
+    heroImage: "/frames/desktop/sequence 1/ezgif-frame-300.jpg",
     galleryImages: [
       {
-        url: "/hero-frames/sequence 01/ezgif-frame-250.jpg",
+        url: "/frames/desktop/sequence 1/ezgif-frame-250.jpg",
         caption: "West elevation with stepped brick corbelling and recessed fenestration.",
         aspectRatio: "wide"
       },
       {
-        url: "/hero-frames/sequence 02/ezgif-frame-120.jpg",
+        url: "/frames/desktop/sequence 2/ezgif-frame-120.jpg",
         caption: "Double-height stair core illuminated by high-level northern skylight.",
         aspectRatio: "portrait"
       },
       {
-        url: "/hero-frames/sequence 01/ezgif-frame-180.jpg",
+        url: "/frames/desktop/sequence 1/ezgif-frame-180.jpg",
         caption: "Garden terrace seamlessly connecting the dining zone to outdoor foliage.",
         aspectRatio: "landscape"
       }
@@ -147,9 +147,9 @@ export const PROJECTS: Project[] = [
       { label: "Studio Role", value: "Comprehensive Architectural & Interior Direction" }
     ],
     media: {
-      poster: "/hero-frames/sequence 01/ezgif-frame-300.jpg",
+      poster: "/frames/desktop/sequence 1/ezgif-frame-300.jpg",
       tileIndex: 1,
-      fallbackImage: "/hero-frames/sequence 01/ezgif-frame-300.jpg"
+      fallbackImage: "/frames/desktop/sequence 1/ezgif-frame-300.jpg"
     }
   },
   {
@@ -178,20 +178,20 @@ export const PROJECTS: Project[] = [
       "The layout removes awkward masonry partitions in favor of full-height oak pocket dividers, enabling the family to shift seamlessly between intimate evenings and hosting larger community gatherings.",
     quote:
       "Simplicity is not the absence of clutter; it is the presence of intention in every joint and shadow line.",
-    heroImage: "/hero-frames/sequence 02/ezgif-frame-180.jpg",
+    heroImage: "/frames/desktop/sequence 2/ezgif-frame-180.jpg",
     galleryImages: [
       {
-        url: "/hero-frames/sequence 02/ezgif-frame-210.jpg",
+        url: "/frames/desktop/sequence 2/ezgif-frame-210.jpg",
         caption: "Open living salon with custom low-slung oak banquettes and concealed media wall.",
         aspectRatio: "landscape"
       },
       {
-        url: "/hero-frames/sequence 01/ezgif-frame-140.jpg",
+        url: "/frames/desktop/sequence 1/ezgif-frame-140.jpg",
         caption: "Minimalist chef's kitchen featuring seamless composite quartz island and hidden pantry.",
         aspectRatio: "wide"
       },
       {
-        url: "/hero-frames/sequence 02/ezgif-frame-080.jpg",
+        url: "/frames/desktop/sequence 2/ezgif-frame-080.jpg",
         caption: "Primary suite bedroom with fluted oak headboard and ambient bedtime cove lighting.",
         aspectRatio: "portrait"
       }
@@ -205,9 +205,9 @@ export const PROJECTS: Project[] = [
       { label: "Acoustics", value: "Acoustic plaster ceilings with sound dampening underlayment" }
     ],
     media: {
-      poster: "/hero-frames/sequence 02/ezgif-frame-180.jpg",
+      poster: "/frames/desktop/sequence 2/ezgif-frame-180.jpg",
       tileIndex: 2,
-      fallbackImage: "/hero-frames/sequence 02/ezgif-frame-180.jpg"
+      fallbackImage: "/frames/desktop/sequence 2/ezgif-frame-180.jpg"
     }
   },
   {
@@ -236,20 +236,20 @@ export const PROJECTS: Project[] = [
       "The ground level houses high-turnover experiential collections with intuitive island displays. A sculptural architectural staircase leads to an upper VIP mezzanine dedicated to bespoke client fittings and consultations.",
     quote:
       "Commercial design is spatial storytelling. When the architecture respects the visitor, the brand requires no hard sell.",
-    heroImage: "/hero-frames/sequence 02/ezgif-frame-240.jpg",
+    heroImage: "/frames/desktop/sequence 2/ezgif-frame-240.jpg",
     galleryImages: [
       {
-        url: "/hero-frames/sequence 01/ezgif-frame-060.jpg",
+        url: "/frames/desktop/sequence 1/ezgif-frame-060.jpg",
         caption: "Double-height street facade with backlit metallic fins and frameless vitrines.",
         aspectRatio: "portrait"
       },
       {
-        url: "/hero-frames/sequence 02/ezgif-frame-160.jpg",
+        url: "/frames/desktop/sequence 2/ezgif-frame-160.jpg",
         caption: "Central display hall with fluted timber baffles and directional spot accents.",
         aspectRatio: "wide"
       },
       {
-        url: "/hero-frames/sequence 01/ezgif-frame-220.jpg",
+        url: "/frames/desktop/sequence 1/ezgif-frame-220.jpg",
         caption: "Private client salon featuring custom leather banquettes and brass coffee bar.",
         aspectRatio: "landscape"
       }
@@ -263,9 +263,9 @@ export const PROJECTS: Project[] = [
       { label: "Completed", value: "October 2024" }
     ],
     media: {
-      poster: "/hero-frames/sequence 02/ezgif-frame-240.jpg",
+      poster: "/frames/desktop/sequence 2/ezgif-frame-240.jpg",
       tileIndex: 3,
-      fallbackImage: "/hero-frames/sequence 02/ezgif-frame-240.jpg"
+      fallbackImage: "/frames/desktop/sequence 2/ezgif-frame-240.jpg"
     }
   },
   {
@@ -294,20 +294,20 @@ export const PROJECTS: Project[] = [
       "The formerly dark internal corridor was replaced with a sunlit atrium topped with laminated safety glass and motorized solar louvers. Modern bathrooms and a concealed chef's kitchen were discreetly integrated without disturbing load-bearing perimeter walls.",
     quote:
       "Renovation is an act of deep respect. We do not erase the past; we create an intelligent dialogue between generations.",
-    heroImage: "/hero-frames/sequence 01/ezgif-frame-150.jpg",
+    heroImage: "/frames/desktop/sequence 1/ezgif-frame-150.jpg",
     galleryImages: [
       {
-        url: "/hero-frames/sequence 02/ezgif-frame-040.jpg",
+        url: "/frames/desktop/sequence 2/ezgif-frame-040.jpg",
         caption: "Main veranda showing restored round masonry columns and lime-washed walls.",
         aspectRatio: "wide"
       },
       {
-        url: "/hero-frames/sequence 01/ezgif-frame-280.jpg",
+        url: "/frames/desktop/sequence 1/ezgif-frame-280.jpg",
         caption: "New central light well inserting natural vertical illumination into former masonry core.",
         aspectRatio: "portrait"
       },
       {
-        url: "/hero-frames/sequence 02/ezgif-frame-110.jpg",
+        url: "/frames/desktop/sequence 2/ezgif-frame-110.jpg",
         caption: "Encaustic patterned floor tiles juxtaposed against minimal matte steel structural lintels.",
         aspectRatio: "landscape"
       }
@@ -321,9 +321,9 @@ export const PROJECTS: Project[] = [
       { label: "Project Phase", value: "Complete Renovation & Interior Styling" }
     ],
     media: {
-      poster: "/hero-frames/sequence 01/ezgif-frame-150.jpg",
+      poster: "/frames/desktop/sequence 1/ezgif-frame-150.jpg",
       tileIndex: 4,
-      fallbackImage: "/hero-frames/sequence 01/ezgif-frame-150.jpg"
+      fallbackImage: "/frames/desktop/sequence 1/ezgif-frame-150.jpg"
     }
   },
   {
@@ -352,20 +352,20 @@ export const PROJECTS: Project[] = [
       "Strict division of public patient registration, sterile treatment zones, and private physician corridors prevents cross-circulation. Step-down acoustic ceilings ensure confidential medical consultations.",
     quote:
       "Healing begins in the environment. Architecture has a moral duty to provide comfort to those in distress.",
-    heroImage: "/hero-frames/sequence 02/ezgif-frame-250.jpg",
+    heroImage: "/frames/desktop/sequence 2/ezgif-frame-250.jpg",
     galleryImages: [
       {
-        url: "/hero-frames/sequence 01/ezgif-frame-100.jpg",
+        url: "/frames/desktop/sequence 1/ezgif-frame-100.jpg",
         caption: "Stepped garden terraces with perforated terracotta sun louvers on south facade.",
         aspectRatio: "wide"
       },
       {
-        url: "/hero-frames/sequence 02/ezgif-frame-090.jpg",
+        url: "/frames/desktop/sequence 2/ezgif-frame-090.jpg",
         caption: "Acoustically isolated executive consultation suite with custom oak work desk.",
         aspectRatio: "landscape"
       },
       {
-        url: "/hero-frames/sequence 01/ezgif-frame-200.jpg",
+        url: "/frames/desktop/sequence 1/ezgif-frame-200.jpg",
         caption: "Patient waiting lounge illuminated by soft diffused light from inner green court.",
         aspectRatio: "portrait"
       }
@@ -379,9 +379,9 @@ export const PROJECTS: Project[] = [
       { label: "Expected Handover", value: "Mid 2026" }
     ],
     media: {
-      poster: "/hero-frames/sequence 02/ezgif-frame-250.jpg",
+      poster: "/frames/desktop/sequence 2/ezgif-frame-250.jpg",
       tileIndex: 5,
-      fallbackImage: "/hero-frames/sequence 02/ezgif-frame-250.jpg"
+      fallbackImage: "/frames/desktop/sequence 2/ezgif-frame-250.jpg"
     }
   }
 ];

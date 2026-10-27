@@ -30,7 +30,7 @@ const SERVICES_DATA: ServiceItem[] = [
       "Structural & masonry coordination",
       "3D volumetric visualization"
     ],
-    bgImage: "/hero-frames/sequence 01/ezgif-frame-300.jpg"
+    bgImage: "/frames/desktop/sequence 1/ezgif-frame-300.jpg"
   },
   {
     id: "interior-design",
@@ -44,7 +44,7 @@ const SERVICES_DATA: ServiceItem[] = [
       "Custom millwork & storage detailing",
       "Architectural lighting design"
     ],
-    bgImage: "/hero-frames/sequence 02/ezgif-frame-150.jpg"
+    bgImage: "/frames/desktop/sequence 2/ezgif-frame-150.jpg"
   },
   {
     id: "commercial-spaces",
@@ -58,7 +58,7 @@ const SERVICES_DATA: ServiceItem[] = [
       "Reception & client presentation zones",
       "Durable high-traffic finish selections"
     ],
-    bgImage: "/hero-frames/sequence 02/ezgif-frame-240.jpg"
+    bgImage: "/frames/desktop/sequence 2/ezgif-frame-240.jpg"
   },
   {
     id: "retail-hospitality",
@@ -72,7 +72,7 @@ const SERVICES_DATA: ServiceItem[] = [
       "Facade & entry threshold design",
       "Directional accent lighting"
     ],
-    bgImage: "/hero-frames/sequence 02/ezgif-frame-180.jpg"
+    bgImage: "/frames/desktop/sequence 2/ezgif-frame-180.jpg"
   },
   {
     id: "renovation-transformation",
@@ -86,7 +86,7 @@ const SERVICES_DATA: ServiceItem[] = [
       "Natural daylight enhancement",
       "Phased renovation scheduling"
     ],
-    bgImage: "/hero-frames/sequence 01/ezgif-frame-240.jpg"
+    bgImage: "/frames/desktop/sequence 1/ezgif-frame-240.jpg"
   }
 ];
 

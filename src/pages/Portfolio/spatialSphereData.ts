@@ -26,10 +26,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2025",
     note: "A climate-attuned sanctuary organized around an open courtyard. Conceived for Eastern Bihar's humid monsoons and intense summers, the design employs stack-effect thermal chimneys, deep cantilevered verandas, and porous brick jaali screens to induce continuous cross-ventilation.",
     assetId: "das-arch-01",
-    thumbUrl: "/hero-frames/sequence 02/ezgif-frame-001.jpg",
-    fullUrl: "/hero-frames/sequence 02/ezgif-frame-001.jpg",
-    fallbackThumb: "/hero-frames/sequence 02/ezgif-frame-010.jpg",
-    fallbackFull: "/hero-frames/sequence 02/ezgif-frame-001.jpg"
+    thumbUrl: "/frames/desktop/sequence 2/ezgif-frame-001.jpg",
+    fullUrl: "/frames/desktop/sequence 2/ezgif-frame-001.jpg",
+    fallbackThumb: "/frames/desktop/sequence 2/ezgif-frame-010.jpg",
+    fallbackFull: "/frames/desktop/sequence 2/ezgif-frame-001.jpg"
   },
   {
     id: "bari-dargah-restoration",
@@ -41,10 +41,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2024",
     note: "Structural stabilization and delicate brickwork re-pointing using traditional slaked-lime mortar and salvaged regional terracotta. The intervention preserves authentic Mughal-era arches while integrating discreet modern drainage and night illumination.",
     assetId: "das-arch-02",
-    thumbUrl: "/hero-frames/sequence 01/ezgif-frame-020.jpg",
-    fullUrl: "/hero-frames/sequence 01/ezgif-frame-020.jpg",
-    fallbackThumb: "/hero-frames/sequence 02/ezgif-frame-030.jpg",
-    fallbackFull: "/hero-frames/sequence 02/ezgif-frame-035.jpg"
+    thumbUrl: "/frames/desktop/sequence 1/ezgif-frame-020.jpg",
+    fullUrl: "/frames/desktop/sequence 1/ezgif-frame-020.jpg",
+    fallbackThumb: "/frames/desktop/sequence 2/ezgif-frame-030.jpg",
+    fallbackFull: "/frames/desktop/sequence 2/ezgif-frame-035.jpg"
   },
   {
     id: "glass-terracotta-atrium",
@@ -56,10 +56,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2025",
     note: "A multi-level lightwell drawing filtered northern daylight deep into a dense commercial streetscape. Fluted terracotta baguettes shade high-performance low-E glass, mitigating solar radiation while establishing a dignified civic facade.",
     assetId: "das-arch-03",
-    thumbUrl: "/hero-frames/sequence 01/ezgif-frame-045.jpg",
-    fullUrl: "/hero-frames/sequence 01/ezgif-frame-045.jpg",
-    fallbackThumb: "/hero-frames/sequence 01/ezgif-frame-050.jpg",
-    fallbackFull: "/hero-frames/sequence 01/ezgif-frame-060.jpg"
+    thumbUrl: "/frames/desktop/sequence 1/ezgif-frame-045.jpg",
+    fullUrl: "/frames/desktop/sequence 1/ezgif-frame-045.jpg",
+    fallbackThumb: "/frames/desktop/sequence 1/ezgif-frame-050.jpg",
+    fallbackFull: "/frames/desktop/sequence 1/ezgif-frame-060.jpg"
   },
   {
     id: "kosi-riverfront-estate",
@@ -71,10 +71,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2025",
     note: "Elevated monolithic plinths and stabilized rammed-earth walls engineered for extreme riparian hydrology. The residence lifts living quarters above high floodlines while framing expansive horizontal vistas of the Kosi confluence.",
     assetId: "das-arch-04",
-    thumbUrl: "/hero-frames/sequence 01/ezgif-frame-070.jpg",
-    fullUrl: "/hero-frames/sequence 01/ezgif-frame-070.jpg",
-    fallbackThumb: "/hero-frames/sequence 01/ezgif-frame-080.jpg",
-    fallbackFull: "/hero-frames/sequence 01/ezgif-frame-090.jpg"
+    thumbUrl: "/frames/desktop/sequence 1/ezgif-frame-070.jpg",
+    fullUrl: "/frames/desktop/sequence 1/ezgif-frame-070.jpg",
+    fallbackThumb: "/frames/desktop/sequence 1/ezgif-frame-080.jpg",
+    fallbackFull: "/frames/desktop/sequence 1/ezgif-frame-090.jpg"
   },
   {
     id: "monolith-residence",
@@ -86,10 +86,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2024",
     note: "Board-formed architectural concrete and deep geometric embrasures protecting inward-facing family suites from harsh western exposure. Raw concrete texture contrasts with warm regional sal-wood joinery and interior water courtyards.",
     assetId: "das-arch-05",
-    thumbUrl: "/hero-frames/sequence 02/ezgif-frame-050.jpg",
-    fullUrl: "/hero-frames/sequence 02/ezgif-frame-050.jpg",
-    fallbackThumb: "/hero-frames/sequence 01/ezgif-frame-110.jpg",
-    fallbackFull: "/hero-frames/sequence 01/ezgif-frame-120.jpg"
+    thumbUrl: "/frames/desktop/sequence 2/ezgif-frame-050.jpg",
+    fullUrl: "/frames/desktop/sequence 2/ezgif-frame-050.jpg",
+    fallbackThumb: "/frames/desktop/sequence 1/ezgif-frame-110.jpg",
+    fallbackFull: "/frames/desktop/sequence 1/ezgif-frame-120.jpg"
   },
   {
     id: "chanakya-executive-chambers",
@@ -101,10 +101,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2024",
     note: "Acoustically tuned slatted walnut panelling, bronze shadow lines, and concealed indirect ceiling channels tailored for high-stakes civic and legal governance. Balance of formal gravitas and contemporary spatial clarity.",
     assetId: "das-arch-06",
-    thumbUrl: "/hero-frames/sequence 01/ezgif-frame-100.jpg",
-    fullUrl: "/hero-frames/sequence 01/ezgif-frame-100.jpg",
-    fallbackThumb: "/hero-frames/sequence 01/ezgif-frame-140.jpg",
-    fallbackFull: "/hero-frames/sequence 01/ezgif-frame-150.jpg"
+    thumbUrl: "/frames/desktop/sequence 1/ezgif-frame-100.jpg",
+    fullUrl: "/frames/desktop/sequence 1/ezgif-frame-100.jpg",
+    fallbackThumb: "/frames/desktop/sequence 1/ezgif-frame-140.jpg",
+    fallbackFull: "/frames/desktop/sequence 1/ezgif-frame-150.jpg"
   },
   {
     id: "shaded-colonnade-estate",
@@ -116,10 +116,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2025",
     note: "Rhythmic perimeter porticos shielding internal living courts, integrating traditional Mithila terracotta relief motifs directly into modern unplastered brick masonry.",
     assetId: "das-arch-07",
-    thumbUrl: "/hero-frames/sequence 01/ezgif-frame-130.jpg",
-    fullUrl: "/hero-frames/sequence 01/ezgif-frame-130.jpg",
-    fallbackThumb: "/hero-frames/sequence 01/ezgif-frame-170.jpg",
-    fallbackFull: "/hero-frames/sequence 01/ezgif-frame-180.jpg"
+    thumbUrl: "/frames/desktop/sequence 1/ezgif-frame-130.jpg",
+    fullUrl: "/frames/desktop/sequence 1/ezgif-frame-130.jpg",
+    fallbackThumb: "/frames/desktop/sequence 1/ezgif-frame-170.jpg",
+    fallbackFull: "/frames/desktop/sequence 1/ezgif-frame-180.jpg"
   },
   {
     id: "precision-fabrication-atrium",
@@ -131,10 +131,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2025",
     note: "Sawtooth north-light roof monitors illuminating 1,400 m² of precision fabrication space with zero daytime artificial lighting, paired with an insulated aerated-concrete perimeter shell.",
     assetId: "das-arch-08",
-    thumbUrl: "/hero-frames/sequence 02/ezgif-frame-090.jpg",
-    fullUrl: "/hero-frames/sequence 02/ezgif-frame-090.jpg",
-    fallbackThumb: "/hero-frames/sequence 01/ezgif-frame-200.jpg",
-    fallbackFull: "/hero-frames/sequence 01/ezgif-frame-210.jpg"
+    thumbUrl: "/frames/desktop/sequence 2/ezgif-frame-090.jpg",
+    fullUrl: "/frames/desktop/sequence 2/ezgif-frame-090.jpg",
+    fallbackThumb: "/frames/desktop/sequence 1/ezgif-frame-200.jpg",
+    fallbackFull: "/frames/desktop/sequence 1/ezgif-frame-210.jpg"
   },
   {
     id: "ganges-penthouse",
@@ -146,10 +146,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2025",
     note: "Honed Statuario marble slabs, frameless acoustic glazing, and floating ceiling planes overlooking the Ganges floodplains. Minimalist detailing strips away clutter to celebrate panoramic horizon lines.",
     assetId: "das-arch-09",
-    thumbUrl: "/hero-frames/sequence 01/ezgif-frame-160.jpg",
-    fullUrl: "/hero-frames/sequence 01/ezgif-frame-160.jpg",
-    fallbackThumb: "/hero-frames/sequence 01/ezgif-frame-230.jpg",
-    fallbackFull: "/hero-frames/sequence 01/ezgif-frame-240.jpg"
+    thumbUrl: "/frames/desktop/sequence 1/ezgif-frame-160.jpg",
+    fullUrl: "/frames/desktop/sequence 1/ezgif-frame-160.jpg",
+    fallbackThumb: "/frames/desktop/sequence 1/ezgif-frame-230.jpg",
+    fallbackFull: "/frames/desktop/sequence 1/ezgif-frame-240.jpg"
   },
   {
     id: "subterranean-gallery",
@@ -161,10 +161,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2024",
     note: "Partially sunken exhibition chambers using earth-sheltering principles to achieve passive thermal stability during 44°C summer peaks, finished in hand-troweled lime wash and basalt paving.",
     assetId: "das-arch-10",
-    thumbUrl: "/hero-frames/sequence 01/ezgif-frame-190.jpg",
-    fullUrl: "/hero-frames/sequence 01/ezgif-frame-190.jpg",
-    fallbackThumb: "/hero-frames/sequence 01/ezgif-frame-260.jpg",
-    fallbackFull: "/hero-frames/sequence 01/ezgif-frame-270.jpg"
+    thumbUrl: "/frames/desktop/sequence 1/ezgif-frame-190.jpg",
+    fullUrl: "/frames/desktop/sequence 1/ezgif-frame-190.jpg",
+    fallbackThumb: "/frames/desktop/sequence 1/ezgif-frame-260.jpg",
+    fallbackFull: "/frames/desktop/sequence 1/ezgif-frame-270.jpg"
   },
   {
     id: "courtyard-medical-clinic",
@@ -176,10 +176,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2025",
     note: "Dual-entry spatial planning segregating sterile clinical consultation suites from open-air healing garden courtyards. Natural daylighting and greenery reduce patient anxiety while maintaining strict clinical hygiene.",
     assetId: "das-arch-11",
-    thumbUrl: "/hero-frames/sequence 02/ezgif-frame-120.jpg",
-    fullUrl: "/hero-frames/sequence 02/ezgif-frame-120.jpg",
-    fallbackThumb: "/hero-frames/sequence 01/ezgif-frame-290.jpg",
-    fallbackFull: "/hero-frames/sequence 01/ezgif-frame-300.jpg"
+    thumbUrl: "/frames/desktop/sequence 2/ezgif-frame-120.jpg",
+    fullUrl: "/frames/desktop/sequence 2/ezgif-frame-120.jpg",
+    fallbackThumb: "/frames/desktop/sequence 1/ezgif-frame-290.jpg",
+    fallbackFull: "/frames/desktop/sequence 1/ezgif-frame-300.jpg"
   },
   {
     id: "tectonic-brick-house",
@@ -191,10 +191,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2024",
     note: "Handcrafted local clay bricks arrayed in varying Flemish-bond densities to create natural ventilation jaalis. The facade breathes with changing diurnal winds, filtering ambient daylight into quiet living spaces.",
     assetId: "das-arch-12",
-    thumbUrl: "/hero-frames/sequence 01/ezgif-frame-220.jpg",
-    fullUrl: "/hero-frames/sequence 01/ezgif-frame-220.jpg",
-    fallbackThumb: "/hero-frames/sequence 02/ezgif-frame-070.jpg",
-    fallbackFull: "/hero-frames/sequence 02/ezgif-frame-080.jpg"
+    thumbUrl: "/frames/desktop/sequence 1/ezgif-frame-220.jpg",
+    fullUrl: "/frames/desktop/sequence 1/ezgif-frame-220.jpg",
+    fallbackThumb: "/frames/desktop/sequence 2/ezgif-frame-070.jpg",
+    fallbackFull: "/frames/desktop/sequence 2/ezgif-frame-080.jpg"
   },
   {
     id: "pavilion-on-water",
@@ -206,10 +206,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2025",
     note: "Cantilevered structural steel and reclaimed sal-wood deck floating over seasonal retention ponds, capturing water reflections and night breezes for a peaceful dining retreat.",
     assetId: "das-arch-13",
-    thumbUrl: "/hero-frames/sequence 02/ezgif-frame-150.jpg",
-    fullUrl: "/hero-frames/sequence 02/ezgif-frame-150.jpg",
-    fallbackThumb: "/hero-frames/sequence 02/ezgif-frame-100.jpg",
-    fallbackFull: "/hero-frames/sequence 02/ezgif-frame-110.jpg"
+    thumbUrl: "/frames/desktop/sequence 2/ezgif-frame-150.jpg",
+    fullUrl: "/frames/desktop/sequence 2/ezgif-frame-150.jpg",
+    fallbackThumb: "/frames/desktop/sequence 2/ezgif-frame-100.jpg",
+    fallbackFull: "/frames/desktop/sequence 2/ezgif-frame-110.jpg"
   },
   {
     id: "the-white-villa",
@@ -221,10 +221,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2025",
     note: "Crisp white lime-plaster volumes punctuated by deep shaded shadowboxes and internal bamboo courtyards. Thermal massing prevents tropical heat build-up while offering tranquil minimalist interiors.",
     assetId: "das-arch-14",
-    thumbUrl: "/hero-frames/sequence 01/ezgif-frame-250.jpg",
-    fullUrl: "/hero-frames/sequence 01/ezgif-frame-250.jpg",
-    fallbackThumb: "/hero-frames/sequence 02/ezgif-frame-130.jpg",
-    fallbackFull: "/hero-frames/sequence 02/ezgif-frame-140.jpg"
+    thumbUrl: "/frames/desktop/sequence 1/ezgif-frame-250.jpg",
+    fullUrl: "/frames/desktop/sequence 1/ezgif-frame-250.jpg",
+    fallbackThumb: "/frames/desktop/sequence 2/ezgif-frame-130.jpg",
+    fallbackFull: "/frames/desktop/sequence 2/ezgif-frame-140.jpg"
   },
   {
     id: "timber-craft-atelier",
@@ -236,10 +236,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2024",
     note: "Exposed regional timber rafters, burnished concrete floors, and floor-to-ceiling pivoting glass portals designed for tactile architectural experimentation, mockups, and client reviews.",
     assetId: "das-arch-15",
-    thumbUrl: "/hero-frames/sequence 02/ezgif-frame-180.jpg",
-    fullUrl: "/hero-frames/sequence 02/ezgif-frame-180.jpg",
-    fallbackThumb: "/hero-frames/sequence 02/ezgif-frame-160.jpg",
-    fallbackFull: "/hero-frames/sequence 02/ezgif-frame-170.jpg"
+    thumbUrl: "/frames/desktop/sequence 2/ezgif-frame-180.jpg",
+    fullUrl: "/frames/desktop/sequence 2/ezgif-frame-180.jpg",
+    fallbackThumb: "/frames/desktop/sequence 2/ezgif-frame-160.jpg",
+    fallbackFull: "/frames/desktop/sequence 2/ezgif-frame-170.jpg"
   },
   {
     id: "urban-micro-sanctuary",
@@ -251,10 +251,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2025",
     note: "High-density inward-oriented residence maximizing vertical volume on an ultra-narrow 140 m² urban site. Light wells cascade daylight across 3 tiers, proving that modest footprints can achieve grand spatial poetics.",
     assetId: "das-arch-16",
-    thumbUrl: "/hero-frames/sequence 01/ezgif-frame-270.jpg",
-    fullUrl: "/hero-frames/sequence 01/ezgif-frame-270.jpg",
-    fallbackThumb: "/hero-frames/sequence 02/ezgif-frame-190.jpg",
-    fallbackFull: "/hero-frames/sequence 02/ezgif-frame-200.jpg"
+    thumbUrl: "/frames/desktop/sequence 1/ezgif-frame-270.jpg",
+    fullUrl: "/frames/desktop/sequence 1/ezgif-frame-270.jpg",
+    fallbackThumb: "/frames/desktop/sequence 2/ezgif-frame-190.jpg",
+    fallbackFull: "/frames/desktop/sequence 2/ezgif-frame-200.jpg"
   },
   {
     id: "terraced-law-chambers",
@@ -266,10 +266,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2024",
     note: "Tiered landscaped rooftop terraces providing shaded outdoor meeting areas above bustling urban thoroughfares. Stepped volumes create acoustic seclusion and passive solar self-shading.",
     assetId: "das-arch-17",
-    thumbUrl: "/hero-frames/sequence 02/ezgif-frame-210.jpg",
-    fullUrl: "/hero-frames/sequence 02/ezgif-frame-210.jpg",
-    fallbackThumb: "/hero-frames/sequence 02/ezgif-frame-210.jpg",
-    fallbackFull: "/hero-frames/sequence 02/ezgif-frame-220.jpg"
+    thumbUrl: "/frames/desktop/sequence 2/ezgif-frame-210.jpg",
+    fullUrl: "/frames/desktop/sequence 2/ezgif-frame-210.jpg",
+    fallbackThumb: "/frames/desktop/sequence 2/ezgif-frame-210.jpg",
+    fallbackFull: "/frames/desktop/sequence 2/ezgif-frame-220.jpg"
   },
   {
     id: "heritage-bungalow-renewal",
@@ -281,10 +281,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2024",
     note: "Sensitive interior reconfiguration of a 1940s colonial masonry bungalow. Preserving original thick brick loadbearing piers while carving out double-height living spaces and modern insulated glazing.",
     assetId: "das-arch-18",
-    thumbUrl: "/hero-frames/sequence 01/ezgif-frame-290.jpg",
-    fullUrl: "/hero-frames/sequence 01/ezgif-frame-290.jpg",
-    fallbackThumb: "/hero-frames/sequence 02/ezgif-frame-230.jpg",
-    fallbackFull: "/hero-frames/sequence 02/ezgif-frame-240.jpg"
+    thumbUrl: "/frames/desktop/sequence 1/ezgif-frame-290.jpg",
+    fullUrl: "/frames/desktop/sequence 1/ezgif-frame-290.jpg",
+    fallbackThumb: "/frames/desktop/sequence 2/ezgif-frame-230.jpg",
+    fallbackFull: "/frames/desktop/sequence 2/ezgif-frame-240.jpg"
   },
   {
     id: "glass-lantern-store",
@@ -296,10 +296,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2025",
     note: "Double-height structural glass facade with interior brass vitrines creating a glowing nocturnal landmark. Interior display volumes float within a neutral monolithic limestone envelope.",
     assetId: "das-arch-19",
-    thumbUrl: "/hero-frames/sequence 02/ezgif-frame-240.jpg",
-    fullUrl: "/hero-frames/sequence 02/ezgif-frame-240.jpg",
-    fallbackThumb: "/hero-frames/sequence 02/ezgif-frame-245.jpg",
-    fallbackFull: "/hero-frames/sequence 02/ezgif-frame-250.jpg"
+    thumbUrl: "/frames/desktop/sequence 2/ezgif-frame-240.jpg",
+    fullUrl: "/frames/desktop/sequence 2/ezgif-frame-240.jpg",
+    fallbackThumb: "/frames/desktop/sequence 2/ezgif-frame-245.jpg",
+    fallbackFull: "/frames/desktop/sequence 2/ezgif-frame-250.jpg"
   },
   {
     id: "brutalist-tower-atrium",
@@ -312,10 +312,10 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     note: "Vertical fluted concrete fins and continuous soaring vertical apertures framing skyward views through an 18-meter atrium. The tall vertical geometry serves as both thermal air column and civic beacon.",
     isTall: true, // Card 20 is tall (portrait card) per specification!
     assetId: "das-arch-20",
-    thumbUrl: "/hero-frames/sequence 01/ezgif-frame-295.jpg",
-    fullUrl: "/hero-frames/sequence 01/ezgif-frame-295.jpg",
-    fallbackThumb: "/hero-frames/sequence 01/ezgif-frame-295.jpg",
-    fallbackFull: "/hero-frames/sequence 01/ezgif-frame-300.jpg"
+    thumbUrl: "/frames/desktop/sequence 1/ezgif-frame-295.jpg",
+    fullUrl: "/frames/desktop/sequence 1/ezgif-frame-295.jpg",
+    fallbackThumb: "/frames/desktop/sequence 1/ezgif-frame-295.jpg",
+    fallbackFull: "/frames/desktop/sequence 1/ezgif-frame-300.jpg"
   },
   {
     id: "architects-drawing-room",
@@ -327,9 +327,9 @@ export const SPATIAL_RECORDS: SpatialRecord[] = [
     year: "2026",
     note: "The central creative sanctum where hand sketches, structural timber prototypes, and raw material samples synthesize into permanent civic architecture.",
     assetId: "das-arch-21",
-    thumbUrl: "/hero-frames/sequence 02/ezgif-frame-258.jpg",
-    fullUrl: "/hero-frames/sequence 02/ezgif-frame-258.jpg",
-    fallbackThumb: "/hero-frames/sequence 02/ezgif-frame-255.jpg",
-    fallbackFull: "/hero-frames/sequence 02/ezgif-frame-258.jpg"
+    thumbUrl: "/frames/desktop/sequence 2/ezgif-frame-258.jpg",
+    fullUrl: "/frames/desktop/sequence 2/ezgif-frame-258.jpg",
+    fallbackThumb: "/frames/desktop/sequence 2/ezgif-frame-255.jpg",
+    fallbackFull: "/frames/desktop/sequence 2/ezgif-frame-258.jpg"
   }
 ];

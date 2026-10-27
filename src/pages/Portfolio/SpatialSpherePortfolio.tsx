@@ -507,7 +507,7 @@ export const SpatialSpherePortfolio: React.FC<SpatialSpherePortfolioProps> = ({
         <div className="who">
           <img
             id="avatar"
-            src="/hero-frames/sequence 02/ezgif-frame-001.jpg"
+            src="/frames/desktop/sequence 2/ezgif-frame-001.jpg"
             alt="DAS Architects & Interiors"
           />
           <div className="who-text">
