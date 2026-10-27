@@ -1,0 +1,590 @@
+/* ==========================================================================
+   DAS ARCHITECTS — MONOGRAPH CASE STUDY DETAIL STYLES
+   Editorial Art Direction & Architectural Publication Layout
+   ========================================================================== */
+
+.monograph-view-root {
+  min-height: 100vh;
+  background: #090B0E;
+  color: #F3E9DA;
+  font-family: 'Onest', sans-serif;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Hero Section */
+.monograph-hero {
+  position: relative;
+  min-height: 75vh;
+  display: flex;
+  align-items: flex-end;
+  padding: clamp(90px, 14vh, 140px) clamp(20px, 4.5vw, 64px) clamp(40px, 6vh, 70px);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.monograph-hero-backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.monograph-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.65) contrast(1.08);
+  transform: scale(1.02);
+  transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.monograph-hero:hover .monograph-hero-img {
+  transform: scale(1.04);
+}
+
+.monograph-hero-scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(9, 11, 14, 0.4) 0%,
+    rgba(9, 11, 14, 0.65) 55%,
+    rgba(9, 11, 14, 0.98) 100%
+  );
+}
+
+.monograph-hero-container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.monograph-top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: clamp(30px, 5vh, 60px);
+}
+
+.monograph-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(22, 13, 16, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(232, 167, 181, 0.25);
+  color: #F3E9DA;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.monograph-back-btn:hover {
+  background: #800020;
+  border-color: #800020;
+  transform: translateX(-4px);
+}
+
+.monograph-index-tag {
+  font-family: 'Onest', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  color: #E8A7B5;
+}
+
+.monograph-index-num {
+  color: #F3E9DA;
+}
+
+.monograph-index-sep {
+  margin: 0 4px;
+  opacity: 0.4;
+}
+
+.monograph-index-total {
+  opacity: 0.6;
+}
+
+.monograph-meta-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #E8A7B5;
+  margin-bottom: 16px;
+}
+
+.meta-dot {
+  opacity: 0.4;
+}
+
+.monograph-title {
+  font-size: clamp(32px, 5vw, 68px);
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  color: #F3E9DA;
+  margin: 0 0 14px 0;
+  max-width: 20ch;
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.8);
+}
+
+.monograph-subtitle {
+  font-size: clamp(14px, 1.4vw, 20px);
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: rgba(243, 233, 218, 0.85);
+  margin: 0;
+  max-width: 44ch;
+}
+
+/* Body Content */
+.monograph-body {
+  padding: clamp(40px, 7vh, 90px) clamp(20px, 4.5vw, 64px);
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.monograph-content-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.95fr);
+  gap: clamp(36px, 6vw, 96px);
+  align-items: flex-start;
+}
+
+@media (max-width: 960px) {
+  .monograph-content-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.monograph-section-tag {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  color: #800020;
+  margin-bottom: 20px;
+}
+
+.monograph-lead {
+  font-size: clamp(18px, 1.6vw, 24px);
+  font-weight: 300;
+  line-height: 1.6;
+  color: #E9DDCF;
+  margin: 0 0 44px 0;
+  border-left: 2px solid #800020;
+  padding-left: 22px;
+}
+
+.monograph-h2 {
+  font-size: clamp(20px, 1.8vw, 28px);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #F3E9DA;
+  margin: 40px 0 16px 0;
+}
+
+.monograph-text {
+  font-size: clamp(14px, 1.05vw, 16px);
+  font-weight: 300;
+  line-height: 1.8;
+  color: rgba(243, 233, 218, 0.78);
+  margin: 0 0 24px 0;
+}
+
+.monograph-quote {
+  margin: 48px 0;
+  padding: 24px 28px;
+  background: rgba(128, 0, 32, 0.08);
+  border-left: 2px solid #800020;
+  border-radius: 0 8px 8px 0;
+}
+
+.monograph-quote p {
+  font-size: clamp(16px, 1.25vw, 20px);
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #F3E9DA;
+  margin: 0 0 12px 0;
+}
+
+.monograph-quote cite {
+  font-style: normal;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #E8A7B5;
+}
+
+.monograph-h3 {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #F3E9DA;
+  margin: 36px 0 16px 0;
+}
+
+.monograph-material-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.monograph-material-item {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  font-size: 14px;
+  color: rgba(243, 233, 218, 0.85);
+}
+
+.mat-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #800020;
+  flex-shrink: 0;
+}
+
+/* Colophon Aside */
+.colophon-glass-card {
+  position: sticky;
+  top: 96px;
+  background: rgba(18, 14, 18, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(232, 167, 181, 0.16);
+  border-radius: 12px;
+  padding: clamp(24px, 3vw, 36px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+}
+
+.colophon-heading {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #E8A7B5;
+  margin: 0 0 24px 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(232, 167, 181, 0.12);
+}
+
+.colophon-table {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 32px;
+}
+
+.colophon-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  font-size: 12.5px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(243, 233, 218, 0.05);
+}
+
+.col-label {
+  color: rgba(243, 233, 218, 0.5);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  flex-shrink: 0;
+}
+
+.col-value {
+  color: #F3E9DA;
+  font-weight: 500;
+  text-align: right;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(128, 0, 32, 0.25);
+  border: 1px solid #800020;
+  color: #E8A7B5;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+}
+
+.colophon-inquire-box {
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid rgba(232, 167, 181, 0.1);
+}
+
+.colophon-inquire-box h4 {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: #F3E9DA;
+  margin: 0 0 6px 0;
+}
+
+.colophon-inquire-box p {
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgba(243, 233, 218, 0.65);
+  margin: 0 0 16px 0;
+}
+
+.colophon-cta-btn {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #800020;
+  color: #F3E9DA;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 18px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.colophon-cta-btn:hover {
+  background: #9d0027;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(128, 0, 32, 0.4);
+}
+
+/* Gallery Plates Section */
+.monograph-gallery-section {
+  padding: clamp(60px, 9vh, 120px) clamp(20px, 4.5vw, 64px);
+  max-width: 1360px;
+  margin: 0 auto;
+  border-top: 1px solid rgba(232, 167, 181, 0.1);
+}
+
+.monograph-gallery-header {
+  margin-bottom: clamp(36px, 5vh, 64px);
+}
+
+.gallery-tag {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  color: #800020;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.gallery-title {
+  font-size: clamp(24px, 2.5vw, 36px);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #F3E9DA;
+  margin: 0;
+}
+
+.monograph-plates-grid {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(40px, 8vh, 90px);
+}
+
+.monograph-plate {
+  margin: 0;
+  position: relative;
+}
+
+.plate-img-frame {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #111;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+}
+
+.plate-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.monograph-plate:hover .plate-img {
+  transform: scale(1.02);
+}
+
+.plate-caption {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-top: 14px;
+  font-size: 12px;
+  color: rgba(243, 233, 218, 0.7);
+  letter-spacing: 0.04em;
+}
+
+.plate-num {
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  color: #800020;
+  text-transform: uppercase;
+}
+
+.plate-wide {
+  width: 100%;
+}
+
+.plate-landscape {
+  max-width: 85%;
+}
+
+.plate-portrait {
+  max-width: 60%;
+}
+
+.plate-offset {
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .plate-landscape,
+  .plate-portrait {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* Sequence Footer */
+.monograph-nav-footer {
+  padding: clamp(50px, 7vh, 80px) clamp(20px, 4.5vw, 64px);
+  background: rgba(14, 11, 14, 0.9);
+  border-top: 1px solid rgba(232, 167, 181, 0.12);
+}
+
+.monograph-nav-container {
+  max-width: 1360px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 24px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .monograph-nav-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+.monograph-seq-link {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 18px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  color: #F3E9DA;
+}
+
+.seq-prev {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.seq-next {
+  align-items: flex-end;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .seq-prev,
+  .seq-next {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.monograph-seq-link:hover {
+  background: rgba(128, 0, 32, 0.15);
+}
+
+.seq-dir {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #800020;
+  font-weight: 600;
+}
+
+.seq-title {
+  font-size: clamp(14px, 1.2vw, 17px);
+  font-weight: 400;
+  color: #F3E9DA;
+}
+
+.seq-cat {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: rgba(243, 233, 218, 0.5);
+}
+
+.monograph-all-btn {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: 1px solid rgba(232, 167, 181, 0.2);
+  border-radius: 999px;
+  padding: 10px 20px;
+  color: #F3E9DA;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.monograph-all-btn:hover {
+  border-color: #800020;
+  background: rgba(128, 0, 32, 0.2);
+}
+
+.all-icon {
+  display: grid;
+  grid-template-columns: repeat(2, 4px);
+  gap: 3px;
+}
+
+.all-icon i {
+  width: 4px;
+  height: 4px;
+  background: currentColor;
+  border-radius: 1px;
+}

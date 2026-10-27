@@ -1,0 +1,276 @@
+/* ==========================================================================
+   DAS ARCHITECTS & INTERIORS — GLOBAL NAVIGATION
+   Wine & Blush Architectural Palette
+   ========================================================================== */
+
+.kage-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 72px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 clamp(20px, 4vw, 56px);
+  box-sizing: border-box;
+  background: rgba(22, 13, 16, 0.75);
+  backdrop-filter: blur(18px) saturate(1.2);
+  -webkit-backdrop-filter: blur(18px) saturate(1.2);
+  border-bottom: 1px solid rgba(232, 167, 173, 0.12);
+  transition: background 0.4s ease, border-color 0.4s ease;
+}
+
+/* Brand */
+.kage-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  color: var(--sand-light, #F3E9DA);
+  flex-shrink: 0;
+}
+
+.kage-brand-logo-img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  border: 1px solid rgba(232, 167, 181, 0.45);
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.5);
+  transition: border-color 0.4s ease, transform 0.4s ease;
+}
+
+.kage-brand:hover .kage-brand-logo-img {
+  border-color: rgba(232, 167, 181, 0.85);
+  transform: scale(1.04);
+}
+
+.kage-brand-tx {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+  gap: 2px;
+}
+
+.kage-brand-tx b {
+  font-family: 'Onest', sans-serif;
+  font-size: clamp(14px, 1.2vw, 17px);
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  color: var(--sand-light, #F3E9DA);
+  text-transform: uppercase;
+}
+
+.kage-brand-tx i {
+  font-style: normal;
+  font-family: 'Onest', sans-serif;
+  font-size: clamp(8.5px, 0.72vw, 10px);
+  font-weight: 400;
+  letter-spacing: 0.30em;
+  color: var(--blush, #E8A7AD);
+  opacity: 0.95;
+  text-transform: uppercase;
+}
+
+/* Desktop Links */
+.kage-nav-links {
+  display: flex;
+  align-items: center;
+  gap: clamp(20px, 2.8vw, 44px);
+  margin-left: auto;
+}
+
+.kage-nav-link {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Onest', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(232, 216, 195, 0.72);
+  padding: 6px 0;
+  transition: color 0.3s ease;
+}
+
+.kage-nav-link .alt {
+  display: none;
+}
+
+.kage-nav-link:hover {
+  color: var(--sand-light, #F3E9DA);
+}
+
+.kage-nav-link.on {
+  color: var(--sand-light, #F3E9DA);
+}
+
+.kage-nav-link.on::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  background: var(--blush, #E8A7AD);
+  box-shadow: 0 0 10px rgba(232, 167, 173, 0.7);
+  animation: navUnderline 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes navUnderline {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+/* Burger Toggle */
+.kage-nav-burger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  margin-left: 20px;
+  position: relative;
+  width: 32px;
+  height: 24px;
+}
+
+.kage-nav-burger i {
+  position: absolute;
+  right: 0;
+  height: 1.5px;
+  background: var(--sand-light, #F3E9DA);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.kage-nav-burger i:nth-child(1) {
+  top: 8px;
+  width: 24px;
+}
+
+.kage-nav-burger i:nth-child(2) {
+  top: 16px;
+  width: 16px;
+}
+
+.kage-nav-burger:hover i:nth-child(2) {
+  width: 24px;
+}
+
+.kage-nav-burger.active i:nth-child(1) {
+  top: 12px;
+  width: 24px;
+  transform: rotate(45deg);
+  background: var(--blush, #E8A7AD);
+}
+
+.kage-nav-burger.active i:nth-child(2) {
+  top: 12px;
+  width: 24px;
+  transform: rotate(-45deg);
+  background: var(--blush, #E8A7AD);
+}
+
+/* Mobile Drawer */
+.kage-mobile-drawer {
+  position: fixed;
+  top: 72px;
+  left: 0;
+  width: 100vw;
+  height: calc(100vh - 72px);
+  background: rgba(30, 11, 17, 0.96);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  z-index: 999;
+  padding: 40px clamp(24px, 6vw, 48px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  animation: drawerSlide 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes drawerSlide {
+  from { opacity: 0; transform: translateY(-12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.kage-drawer-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.kage-drawer-tagline {
+  font-family: 'Onest', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.32em;
+  color: var(--blush, #E8A7AD);
+  margin-bottom: 32px;
+}
+
+.kage-drawer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.kage-drawer-links a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(232, 167, 173, 0.12);
+}
+
+.kage-drawer-links a b {
+  font-family: 'Onest', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  color: var(--sand-light, #F3E9DA);
+}
+
+.kage-drawer-links a i {
+  font-style: normal;
+  font-family: 'Onest', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  color: var(--blush, #E8A7AD);
+  opacity: 0.8;
+}
+
+.kage-drawer-links a.active b {
+  color: var(--blush-light, #F3C8C7);
+}
+
+.kage-drawer-links a.active i {
+  color: var(--blush, #E8A7AD);
+}
+
+.kage-drawer-foot {
+  font-family: 'Onest', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: rgba(232, 216, 195, 0.4);
+  padding-top: 24px;
+}
+
+/* Responsive breakpoint */
+@media (max-width: 820px) {
+  .kage-nav-links {
+    display: none;
+  }
+  .kage-nav-burger {
+    display: block;
+  }
+}
